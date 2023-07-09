@@ -25,8 +25,8 @@
 
 using namespace std;
 
-#define USE_VECTOR
-// #define USE_LIST;
+//#define USE_VECTOR
+#define USE_LIST;
 
 class Guest {
 public:
