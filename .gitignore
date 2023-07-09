@@ -1,5 +1,12 @@
-# Prerequisites
-*.d
+# CLion-specific files
+*.dSYM/
+.idea/
+.DS_Store
+cmake-build-debug/
+cmake-build-release/
+
+# eXtensible Markup Language
+*.xml
 
 # Compiled Object files
 *.slo
@@ -16,10 +23,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -30,3 +33,6 @@
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
